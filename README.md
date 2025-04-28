@@ -65,7 +65,7 @@ This command will create a new Laravel project in a directory named `laravel-pro
 
 At this point, the directory should contain the standard Laravel file structure:
 
-![The Laravel projext structure](https://media.brightdata.com/2025/04/The-Laravel-projext-structure.png)
+![The Laravel projext structure](https://github.com/luminati-io/laravel-with-proxy/blob/main/images/The-Laravel-projext-structure.png)
 
 ### Step #2: Define the Test API Endpoint
 
@@ -416,29 +416,29 @@ Follow these steps to implement Bright Data's residential proxies with Laravel.
 
 If you don't have an account yet, [sign up with Bright Data](https://brightdata.com/cp/start). If you already have one, log in to access your user dashboard:
 
-![The Bright Data dashboard](https://media.brightdata.com/2025/04/The-Bright-Data-dashboard.png)
+![The Bright Data dashboard](https://github.com/luminati-io/laravel-with-proxy/blob/main/images/The-Bright-Data-dashboard.png)
 
 After logging in, click the "Get proxy products" button:
 
-![Clicking the "Get proxy products" button](https://media.brightdata.com/2025/04/Clicking-the-Get-proxy-products-button.png)
+![Clicking the "Get proxy products" button](https://github.com/luminati-io/laravel-with-proxy/blob/main/images/Clicking-the-Get-proxy-products-button.png)
 
 You'll be directed to the "Proxies & Scraping Infrastructure" page:
 
-![The "Proxies & Scraping Infrastructure" page](https://media.brightdata.com/2025/04/The-Proxies-Scraping-Infrastructure-page-1.png)
+![The "Proxies & Scraping Infrastructure" page](https://github.com/luminati-io/laravel-with-proxy/blob/main/images/The-Proxies-Scraping-Infrastructure-page-1.png)
 
 In the table, locate the "Residential" row and click on it:
 
-![Clicking the "residential" row](https://media.brightdata.com/2025/04/Clicking-the-residential-row.png)
+![Clicking the "residential" row](https://github.com/luminati-io/laravel-with-proxy/blob/main/images/Clicking-the-residential-row.png)
 
 You'll be taken to the residential proxy page:
 
-![The "residential" page](https://media.brightdata.com/2025/04/The-residential-page.png)
+![The "residential" page](https://github.com/luminati-io/laravel-with-proxy/blob/main/images/The-residential-page.png)
 
 For first-time users, follow the setup wizard to configure the proxy service according to your requirements. For additional assistance, feel free to [contact their 24/7 support team](https://brightdata.com/contact).
 
 On the "Overview" tab, find your proxy's host, port, username, and password:
 
-![The proxy credentials](https://media.brightdata.com/2025/04/The-proxy-credentials.png)
+![The proxy credentials](https://github.com/luminati-io/laravel-with-proxy/blob/main/images/The-proxy-credentials.png)
 
 Use these details to construct your proxy URL:
 
@@ -450,7 +450,7 @@ Replace the placeholders (`<brightdata_proxy_username>`, `<brightdata_proxy_pass
 
 Make sure to toggle the "Off" switch to enable the proxy product, and complete the remaining setup instructions:
 
-![Clicking the activation toggle](https://media.brightdata.com/2025/04/Clicking-the-activation-toggle.png)
+![Clicking the activation toggle](https://github.com/luminati-io/laravel-with-proxy/blob/main/images/Clicking-the-activation-toggle.png)
 
 With your proxy URL configured, you can now integrate it into Laravel using the `Http` client. Here's the code to send a request via Bright Data's rotating residential proxy in Laravel:
 
